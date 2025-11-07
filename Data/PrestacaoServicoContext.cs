@@ -14,7 +14,7 @@ namespace PrestacaoServico.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=localhost;Database=PrestacaoServicoDB;User Id=sa;Password=fonseca@04;Encrypt=True;TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer("Server=localhost;Database=PrestacaoServicoDB;User Id=sa;Password=;Encrypt=True;TrustServerCertificate=True;");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
