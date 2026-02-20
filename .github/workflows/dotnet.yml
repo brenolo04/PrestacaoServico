@@ -11,8 +11,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: ls command
-        run: echo ${{github.action_path}}
+      - name: Working
+        run: ${{github.action_path}}
     # - uses: actions/checkout@v4
     # - name: Setup .NET
     #   uses: actions/setup-dotnet@v4
